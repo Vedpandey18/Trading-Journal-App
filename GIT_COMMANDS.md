@@ -150,16 +150,4 @@ git push -u origin main
 
 ---
 
-## ✅ Success Indicators
 
-After successful push, you should see:
-```
-Enumerating objects: X, done.
-Counting objects: 100% (X/X), done.
-Writing objects: 100% (X/X), done.
-To https://github.com/YOUR_USERNAME/trading-journal.git
- * [new branch]      main -> main
-Branch 'main' set up to track remote branch 'main' from 'origin'.
-```
-
-Your project is now on GitHub! 🎉
