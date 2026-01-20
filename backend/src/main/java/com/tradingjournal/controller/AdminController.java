@@ -30,8 +30,8 @@ public class AdminController {
     public ResponseEntity<Map<String, String>> createAdmin() {
         Map<String, String> response = new HashMap<>();
         
-        String adminUsername = "VedPandey18";
-        String adminEmail = "Ved201283@gmail.com";
+        String adminUsername = "admin";
+        String adminEmail = "admin@tradingjournal.com";
         String adminPassword = "Qwertyx201#";
 
         // Check if admin already exists
@@ -73,7 +73,7 @@ public class AdminController {
     public ResponseEntity<Map<String, Object>> checkAdmin() {
         Map<String, Object> response = new HashMap<>();
         
-        String adminUsername = "VedPandey18";
+        String adminUsername = "admin";
         boolean exists = userRepository.existsByUsername(adminUsername);
         
         response.put("exists", exists);
